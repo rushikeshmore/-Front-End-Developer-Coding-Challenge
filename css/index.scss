@@ -10,3 +10,19 @@
   --main-font: "indivisible", sans-serif;
   --support-font: "turnip", serif;
 }
+/* reset  */
+body,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+button.slick-prev.slick-arrow,
+button.slick-next.slick-arrow{
+  display: none !important;
+}
